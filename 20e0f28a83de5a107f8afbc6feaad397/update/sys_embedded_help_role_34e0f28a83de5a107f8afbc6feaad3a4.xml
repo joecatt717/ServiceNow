@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1579565_cmdb_a_1.admin" name="x_1579565_cmdb_a_1.admin">f4e0f28a83de5a107f8afbc6feaad3a0</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 15:00:47</sys_created_on>
+        <sys_id>34e0f28a83de5a107f8afbc6feaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f4e0f28a83de5a107f8afbc6feaad3a0</sys_name>
+        <sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_update_name>sys_embedded_help_role_34e0f28a83de5a107f8afbc6feaad3a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 15:00:47</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
