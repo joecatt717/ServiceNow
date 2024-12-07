@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a97b6c283129a107f8afbc6feaad376" label="Standard Attribute Extension" max_length="40" name="x_1579565_cmdb_a_1_standard_attribute_extension" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

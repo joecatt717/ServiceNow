@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 15:10:57</sys_created_on>
+        <sys_id>6d33764e83de5a107f8afbc6feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1579565_cmdb_a_1_extended_attribute_rule.x_1579565_cmdb_a_1.admin</sys_name>
+        <sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_security_acl display_value="x_1579565_cmdb_a_1_extended_attribute_rule">6d33764e83de5a107f8afbc6feaad357</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6d33764e83de5a107f8afbc6feaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 15:10:57</sys_updated_on>
+        <sys_user_role display_value="x_1579565_cmdb_a_1.admin" name="x_1579565_cmdb_a_1.admin">f4e0f28a83de5a107f8afbc6feaad3a0</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

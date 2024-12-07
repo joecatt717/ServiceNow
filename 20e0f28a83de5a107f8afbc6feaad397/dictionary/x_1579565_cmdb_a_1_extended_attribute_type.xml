@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4e34fa8e83de5a107f8afbc6feaad328" label="Extended Attribute Type" max_length="40" name="x_1579565_cmdb_a_1_extended_attribute_type" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Table" mandatory="true" max_length="40" name="table" type="table_name"/>
+        <element label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
+    </element>
+</database>
