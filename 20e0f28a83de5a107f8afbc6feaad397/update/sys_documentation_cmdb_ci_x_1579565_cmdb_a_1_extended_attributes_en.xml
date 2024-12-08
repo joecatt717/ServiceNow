@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_1579565_cmdb_a_1_extended_attributes" label="Extended attributes" language="en" table="cmdb_ci">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_1579565_cmdb_a_1_extended_attributes</element>
+            <help/>
+            <hint/>
+            <label>Extended attributes</label>
+            <language>en</language>
+            <name>cmdb_ci</name>
+            <plural>Extended attributes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 20:43:28</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Extended attributes</sys_name>
+            <sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+            <sys_update_name>sys_documentation_cmdb_ci_x_1579565_cmdb_a_1_extended_attributes_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 20:43:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

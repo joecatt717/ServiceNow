@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>CMDB Exteded Attributes Test</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>CMDB Exteded Attributes Test</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">2cf7cfdfd12302104f34ba60d8b7c12c</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 20:49:05</sys_created_on>
+        <sys_id>fa90085683969a107f8afbc6feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Exteded Attributes Test</sys_name>
+        <sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_update_name>sys_wizard_answer_fa90085683969a107f8afbc6feaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 20:49:05</sys_updated_on>
+        <table/>
+        <target_url>x_1579565_cmdb_a_1_cmdb_exteded_attributes_test.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</application>
+        <file_path/>
+        <instance_id>b529dcfa1b8ebd1019254089bd4bcb67</instance_id>
+        <instance_name>dev194263</instance_name>
+        <name>sys_wizard_answer_fa90085683969a107f8afbc6feaad3b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>CMDB Exteded Attributes Test</answer><button_label/><dependent_value/><element/><name>CMDB Exteded Attributes Test</name><next_question/><order>100</order><payload_name/><question display_value="Base Configuration Item" name="Base Configuration Item">2cf7cfdfd12302104f34ba60d8b7c12c</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 20:49:05</sys_created_on><sys_id>fa90085683969a107f8afbc6feaad3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CMDB Exteded Attributes Test</sys_name><sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package><sys_policy/><sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope><sys_update_name>sys_wizard_answer_fa90085683969a107f8afbc6feaad3b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 20:49:05</sys_updated_on><table/><target_url>x_1579565_cmdb_a_1_cmdb_exteded_attributes_test.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-114457717</payload_hash>
+        <record_name>CMDB Exteded Attributes Test</record_name>
+        <reverted_from/>
+        <source>70f0b700831212107f8afbc6feaad374</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-12-01 14:32:50</sys_created_on>
+        <sys_id>24e66b5e839e12107f8afbc6feaad3e5</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19382a372500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>e0e66b5ee99e1210d806b05e57b0e6e5</update_guid>
+        <update_guid_history>e0e66b5ee99e1210d806b05e57b0e6e5:-114457717</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-08 13:35:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>4a1706a3875949269ba2a45e3404f184</sys_id>
+        <sys_metadata>fa90085683969a107f8afbc6feaad3b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Exteded Attributes Test</sys_name>
+        <sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_parent display_value="Base Configuration Item">2cf7cfdfd12302104f34ba60d8b7c12c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_scope_delete display_value="">1b61620f20e6467dae32fa9be1f33819</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_fa90085683969a107f8afbc6feaad3b4</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_fa90085683969a107f8afbc6feaad3b4">24e66b5e839e12107f8afbc6feaad3e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-08 13:35:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

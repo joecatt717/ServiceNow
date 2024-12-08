@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6433364e83de5a107f8afbc6feaad334" label="Extended Attribute Rule" max_length="40" name="x_1579565_cmdb_a_1_extended_attribute_rule" type="collection">
-        <element label="Attribute Type" max_length="32" name="attribute_type" reference="x_1579565_cmdb_a_1_extended_attribute_type" type="reference"/>
-        <element label="Applicable Class" max_length="40" name="applicable_class" type="table_name"/>
-        <element label="Short Description" max_length="200" name="short_description" type="string"/>
+        <element label="Class Reference Field" max_length="40" name="class_reference_field" type="string"/>
+        <element dependent="applicable_class" dependent_on_field="applicable_class" label="Filter condition" max_length="4000" name="filter_condition" type="conditions" use_dependent_field="true"/>
+        <element label="Attribute Type" mandatory="true" max_length="32" name="attribute_type" reference="x_1579565_cmdb_a_1_extended_attribute_type" type="reference"/>
+        <element label="Applicable Class" mandatory="true" max_length="40" name="applicable_class" type="table_name"/>
+        <element display="true" label="Short Description" mandatory="true" max_length="200" name="short_description" type="string"/>
         <index name="index">
             <element name="attribute_type"/>
         </index>

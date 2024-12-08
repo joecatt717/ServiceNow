@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>2</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 20:23:48</sys_created_on>
+        <sys_id>867abfca83569a107f8afbc6feaad330</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>20ca370e83569a107f8afbc6feaad3c5</sys_name>
+        <sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_867abfca83569a107f8afbc6feaad330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 20:23:55</sys_updated_on>
+        <test display_value="Record Creation Tests">20ca370e83569a107f8afbc6feaad3c5</test>
+        <test_suite display_value="CMDB Attribute Extension - Test Suite">82a53e0283129a107f8afbc6feaad3f7</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

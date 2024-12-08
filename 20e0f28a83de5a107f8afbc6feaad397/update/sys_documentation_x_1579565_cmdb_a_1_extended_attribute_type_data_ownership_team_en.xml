@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="data_ownership_team" label="Data Ownership Team" language="en" table="x_1579565_cmdb_a_1_extended_attribute_type">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>data_ownership_team</element>
+            <help/>
+            <hint/>
+            <label>Data Ownership Team</label>
+            <language>en</language>
+            <name>x_1579565_cmdb_a_1_extended_attribute_type</name>
+            <plural>Data Ownership Teams</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 20:15:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data Ownership Team</sys_name>
+            <sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+            <sys_update_name>sys_documentation_x_1579565_cmdb_a_1_extended_attribute_type_data_ownership_team_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 20:15:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
