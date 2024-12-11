@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_1579565_cmdb_a_1_attribute_extension_rule</name>
         <next_element/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
         <sys_update_name>sys_dictionary_x_1579565_cmdb_a_1_attribute_extension_rule_short_description</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-08 16:13:52</sys_updated_on>
+        <sys_updated_on>2024-12-11 04:52:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1579565_cmdb_a_1_attribute_extension_rule">
+    <x_1579565_cmdb_a_1_attribute_extension_rule action="DELETE">
+        <active>true</active>
+        <attribute_extension_type display_value="Test Attribute Extension Type 1">98486413831256107f8afbc6feaad3eb</attribute_extension_type>
+        <core_table_name>x_1579565_cmdb_a_1_test_core_attribute_extension_table</core_table_name>
+        <data_owner/>
+        <data_ownership_group/>
+        <filter_condition/>
+        <reference_field display_value="Extended attributes" element="x_1579565_cmdb_a_1_extended_attributes" name="x_1579565_cmdb_a_1_test_core_attribute_extension_table">8f3148e2835252107f8afbc6feaad374</reference_field>
+        <short_description>test 2</short_description>
+        <sys_class_name>x_1579565_cmdb_a_1_attribute_extension_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 04:58:55</sys_created_on>
+        <sys_id>df7d015383d256107f8afbc6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test 2</sys_name>
+        <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_update_name>x_1579565_cmdb_a_1_attribute_extension_rule_df7d015383d256107f8afbc6feaad367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 04:58:55</sys_updated_on>
+    </x_1579565_cmdb_a_1_attribute_extension_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</application>
+        <file_path/>
+        <instance_id>b529dcfa1b8ebd1019254089bd4bcb67</instance_id>
+        <instance_name>dev194263</instance_name>
+        <name>x_1579565_cmdb_a_1_attribute_extension_rule_df7d015383d256107f8afbc6feaad367</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1579565_cmdb_a_1_attribute_extension_rule"><x_1579565_cmdb_a_1_attribute_extension_rule action="INSERT_OR_UPDATE"><active>true</active><attribute_extension_type display_value="Test Attribute Extension Type 1">98486413831256107f8afbc6feaad3eb</attribute_extension_type><core_table_name>x_1579565_cmdb_a_1_test_core_attribute_extension_table</core_table_name><data_owner/><data_ownership_group/><filter_condition/><reference_field display_value="Extended attributes" element="x_1579565_cmdb_a_1_extended_attributes" name="x_1579565_cmdb_a_1_test_core_attribute_extension_table">8f3148e2835252107f8afbc6feaad374</reference_field><short_description>test 2</short_description><sys_class_name>x_1579565_cmdb_a_1_attribute_extension_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 04:58:55</sys_created_on><sys_id>df7d015383d256107f8afbc6feaad367</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test 2</sys_name><sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package><sys_policy/><sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope><sys_update_name>x_1579565_cmdb_a_1_attribute_extension_rule_df7d015383d256107f8afbc6feaad367</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 04:58:55</sys_updated_on></x_1579565_cmdb_a_1_attribute_extension_rule></record_update>]]></payload>
+        <payload_hash>653619663</payload_hash>
+        <record_name>test 2</record_name>
+        <reverted_from/>
+        <source>1c33f24e83de5a107f8afbc6feaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 04:58:55</sys_created_on>
+        <sys_id>e37d015383d256107f8afbc6feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193b4159ce90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 04:58:55</sys_updated_on>
+        <type>Attribute Extension Rule</type>
+        <update_guid>e77d015322d256109466abcbf8294c6a</update_guid>
+        <update_guid_history>e77d015322d256109466abcbf8294c6a:653619663</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test 2">718d015383d256107f8afbc6feaad392</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 04:59:05</sys_created_on>
+        <sys_db_object display_value="" name="x_1579565_cmdb_a_1_attribute_extension_rule">x_1579565_cmdb_a_1_attribute_extension_rule</sys_db_object>
+        <sys_id>09eebf6d10074d88afc1e7946b2e5ab1</sys_id>
+        <sys_metadata>df7d015383d256107f8afbc6feaad367</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test 2</sys_name>
+        <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_scope_delete display_value="">1b61620f20e6467dae32fa9be1f33819</sys_scope_delete>
+        <sys_update_name>x_1579565_cmdb_a_1_attribute_extension_rule_df7d015383d256107f8afbc6feaad367</sys_update_name>
+        <sys_update_version display_value="x_1579565_cmdb_a_1_attribute_extension_rule_df7d015383d256107f8afbc6feaad367">e37d015383d256107f8afbc6feaad36b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 04:59:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

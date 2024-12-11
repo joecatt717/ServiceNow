@@ -106,20 +106,34 @@ AttrExtensionUtils.prototype = {
 		return false;
 	},
 
+	getExtensionRuleReferenceFields: function(table_name) {
+		var dictionary = new GlideRecord('sys_dictionary');
+		dictionary.addQuery('internal_type', 'reference');
+		dictionary.addQuery('name', table_name);
+		dictionary.query();
+
+		var reference_field_ids = [];
+		while(dictionary.next()) {
+			reference_field_ids.push(dictionary.getUniqueValue())
+		}
+
+		return 'sys_idIN' + reference_field_ids;
+	},
+
     type: 'AttrExtensionUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-07 15:45:41</sys_created_on>
         <sys_id>e9f972c683129a107f8afbc6feaad3f1</sys_id>
-        <sys_mod_count>79</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name>AttrExtensionUtils</sys_name>
         <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
         <sys_update_name>sys_script_include_e9f972c683129a107f8afbc6feaad3f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-11 00:58:18</sys_updated_on>
+        <sys_updated_on>2024-12-11 04:50:13</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>e9f972c683129a107f8afbc6feaad3f1</id>
