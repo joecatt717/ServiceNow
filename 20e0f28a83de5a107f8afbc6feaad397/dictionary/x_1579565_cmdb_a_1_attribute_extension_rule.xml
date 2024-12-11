@@ -2,7 +2,7 @@
     <element attributes="update_synch=true" db_object_id="77283fd2831252107f8afbc6feaad3fd" extends="sys_metadata" label="Attribute Extension Rule" max_length="40" name="x_1579565_cmdb_a_1_attribute_extension_rule" type="collection">
         <element label="Attribute extension type" max_length="32" name="attribute_extension_type" reference="x_1579565_cmdb_a_1_attribute_extension_type" type="reference"/>
         <element label="Data ownership group" max_length="32" name="data_ownership_group" reference="sys_user_group" type="reference"/>
-        <element label="Reference field" max_length="32" name="reference_field" reference="sys_dictionary" type="reference"/>
+        <element dependent="core_table_name" dependent_on_field="core_table_name" label="Reference field" max_length="32" name="reference_field" reference="sys_dictionary" type="reference" use_dependent_field="true"/>
         <element label="Core table name" max_length="80" name="core_table_name" type="table_name"/>
         <element label="Data owner" max_length="32" name="data_owner" reference="sys_user" type="reference"/>
         <element label="Filter condition" max_length="4000" name="filter_condition" type="conditions"/>

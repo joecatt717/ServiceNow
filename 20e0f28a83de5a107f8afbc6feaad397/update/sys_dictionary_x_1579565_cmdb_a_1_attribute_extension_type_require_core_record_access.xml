@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="extended_attribute_table" table="x_1579565_cmdb_a_1_attribute_extension_type">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="require_core_record_access" table="x_1579565_cmdb_a_1_attribute_extension_type">
         <active>true</active>
         <array>false</array>
-        <attributes>base_table=x_1579565_cmdb_a_1_standard_attribute_extension</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
+        <calculation/>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Extended attribute table</column_label>
+        <column_label>Require CORE record access</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,15 +21,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>extended_attribute_table</element>
+        <element>require_core_record_access</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">table_name</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>80</max_length>
+        <internal_type display_value="">boolean</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
         <name>x_1579565_cmdb_a_1_attribute_extension_type</name>
         <next_element/>
         <primary>false</primary>
@@ -51,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-08 14:43:42</sys_created_on>
-        <sys_name>Extended attribute table</sys_name>
+        <sys_created_on>2024-12-11 01:19:10</sys_created_on>
+        <sys_name>Require CORE record access</sys_name>
         <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
-        <sys_update_name>sys_dictionary_x_1579565_cmdb_a_1_attribute_extension_type_extended_attribute_table</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1579565_cmdb_a_1_attribute_extension_type_require_core_record_access</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-11 01:14:03</sys_updated_on>
+        <sys_updated_on>2024-12-11 01:20:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

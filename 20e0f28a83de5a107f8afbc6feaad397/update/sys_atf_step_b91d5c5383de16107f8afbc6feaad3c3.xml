@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Insert a record into 'x_1579565_cmdb_a_1_attribute_extension_type' with the following values:
+Short description = New Test Record
+and Active = true
+and Require CORE record access = true
+and Default data owner = {{Step 1: Create a User.User}}
+and Default ownership team = {{Step 2: Record Insert.Record}}
+and Extended attribute table = x_1579565_cmdb_a_1_standard_attribute_extension
+Confirm the record was successfully inserted
+
+Warning: Using a table that extends Application File [sys_metadata] may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Create initial test attribute extension type record</notes>
+        <order>3</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 01:28:52</sys_created_on>
+        <sys_id>b91d5c5383de16107f8afbc6feaad3c3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_update_name>sys_atf_step_b91d5c5383de16107f8afbc6feaad3c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 02:15:04</sys_updated_on>
+        <table>x_1579565_cmdb_a_1_attribute_extension_type</table>
+        <test display_value="Attribute Extension Type Test">0ebc545383de16107f8afbc6feaad361</test>
+        <timeout/>
+        <warning_message>Warning: Using a table that extends Application File [sys_metadata] may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b91d5c5383de16107f8afbc6feaad3c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b91d5c5383de16107f8afbc6feaad3c3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 01:28:52</sys_created_on>
+        <sys_id>2a6d1c5383de16107f8afbc6feaad3d8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 02:15:05</sys_updated_on>
+        <value>short_description=New Test Record^active=true^require_core_record_access=true^default_data_owner={{step['d88d1c5383de16107f8afbc6feaad3dc'].user}}^default_ownership_team={{step['6dad589383de16107f8afbc6feaad336'].record_id}}^extended_attribute_table=x_1579565_cmdb_a_1_standard_attribute_extension^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b91d5c5383de16107f8afbc6feaad3c3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 01:28:52</sys_created_on>
+        <sys_id>666d1c5383de16107f8afbc6feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 01:28:52</sys_updated_on>
+        <value>x_1579565_cmdb_a_1_attribute_extension_type</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b91d5c5383de16107f8afbc6feaad3c3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 01:28:52</sys_created_on>
+        <sys_id>6a6d1c5383de16107f8afbc6feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 01:28:52</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b91d5c5383de16107f8afbc6feaad3c3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 01:28:52</sys_created_on>
+        <sys_id>a26d1c5383de16107f8afbc6feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 01:28:52</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b91d5c5383de16107f8afbc6feaad3c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>b91d5c5383de16107f8afbc6feaad3c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 01:28:52</sys_created_on>
+        <sys_id>226d1c5383de16107f8afbc6feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 01:28:52</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>b91d5c5383de16107f8afbc6feaad3c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 01:28:52</sys_created_on>
+        <sys_id>e66d1c5383de16107f8afbc6feaad3d7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 02:15:05</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>short_description=New Test Record^active=true^require_core_record_access=true^default_data_owner={{step['d88d1c5383de16107f8afbc6feaad3dc'].user}}^default_ownership_team={{step['6dad589383de16107f8afbc6feaad336'].record_id}}^extended_attribute_table=x_1579565_cmdb_a_1_standard_attribute_extension^EQ</value>
+    </sys_element_mapping>
+</record_update>

@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>cmdb_ci</collection>
+        <collection>x_1579565_cmdb_a_1_standard_attribute_extension</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Sync Extended Attributes</name>
+        <name>Set attribute type on insert</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,38 +29,37 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	// Ensure that a record exists for extended attributes for each category associated with this CI
-	var utils = new x_1579565_cmdb_a_1.AttributeExtensionSync();
-	utils.createExtendedAttributes(current);
+	// Add your code here
+	current.attribute_extension_type = current.attribute_extension_rule.attribute_extension_type;
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-07 20:59:16</sys_created_on>
+        <sys_created_on>2024-12-11 00:53:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0442c01a83969a107f8afbc6feaad39d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Sync Extended Attributes</sys_name>
+        <sys_id>9a655c93839e16107f8afbc6feaad363</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set attribute type on insert</sys_name>
         <sys_overrides/>
         <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
-        <sys_update_name>sys_script_0442c01a83969a107f8afbc6feaad39d</sys_update_name>
+        <sys_update_name>sys_script_9a655c93839e16107f8afbc6feaad363</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-11 01:00:12</sys_updated_on>
+        <sys_updated_on>2024-12-11 00:55:38</sys_updated_on>
         <template/>
-        <when>after</when>
+        <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=0442c01a83969a107f8afbc6feaad39d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9a655c93839e16107f8afbc6feaad363"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>0442c01a83969a107f8afbc6feaad39d</id>
+        <id>9a655c93839e16107f8afbc6feaad363</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-07 20:59:16</sys_created_on>
-        <sys_id>77e28cd683969a107f8afbc6feaad30a</sys_id>
+        <sys_created_on>2024-12-11 00:55:37</sys_created_on>
+        <sys_id>6bc510d7839e16107f8afbc6feaad376</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-07 20:59:16</sys_updated_on>
+        <sys_updated_on>2024-12-11 00:55:37</sys_updated_on>
         <table>sys_script</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

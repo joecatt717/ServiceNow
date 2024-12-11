@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_1579565_cmdb_a_1_attribute_extension_rule">
     <x_1579565_cmdb_a_1_attribute_extension_rule action="INSERT_OR_UPDATE">
-        <attribute_extension_type display_value="TEST">fb570cea835252107f8afbc6feaad3bb</attribute_extension_type>
+        <attribute_extension_type display_value="Test Attribute Extension Type 1">98486413831256107f8afbc6feaad3eb</attribute_extension_type>
         <core_table_name>x_1579565_cmdb_a_1_test_core_attribute_extension_table</core_table_name>
         <data_owner/>
         <data_ownership_group/>
         <filter_condition/>
         <reference_field display_value="Extended attributes" element="x_1579565_cmdb_a_1_extended_attributes" name="x_1579565_cmdb_a_1_test_core_attribute_extension_table">8f3148e2835252107f8afbc6feaad374</reference_field>
-        <short_description>TEST RULE</short_description>
+        <short_description>test</short_description>
         <sys_class_name>x_1579565_cmdb_a_1_attribute_extension_rule</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-08 15:58:52</sys_created_on>
-        <sys_id>3697802e835252107f8afbc6feaad32e</sys_id>
+        <sys_created_on>2024-12-11 02:25:45</sys_created_on>
+        <sys_id>ad3a64d3831256107f8afbc6feaad31f</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>test</sys_name>
         <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
-        <sys_update_name>x_1579565_cmdb_a_1_attribute_extension_rule_3697802e835252107f8afbc6feaad32e</sys_update_name>
+        <sys_update_name>x_1579565_cmdb_a_1_attribute_extension_rule_ad3a64d3831256107f8afbc6feaad31f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-08 16:13:37</sys_updated_on>
+        <sys_updated_on>2024-12-11 02:28:31</sys_updated_on>
     </x_1579565_cmdb_a_1_attribute_extension_rule>
 </record_update>

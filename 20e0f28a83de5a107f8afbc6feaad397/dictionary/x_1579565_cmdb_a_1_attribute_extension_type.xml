@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="update_synch=true" db_object_id="7705ff52831252107f8afbc6feaad313" extends="sys_metadata" label="Attribute Extension Type" max_length="40" name="x_1579565_cmdb_a_1_attribute_extension_type" type="collection">
-        <element label="Extended attribute table" mandatory="true" max_length="80" name="extended_attribute_table" type="table_name"/>
+        <element attributes="base_table=x_1579565_cmdb_a_1_standard_attribute_extension" label="Extended attribute table" mandatory="true" max_length="80" name="extended_attribute_table" type="table_name"/>
         <element label="Business use case" max_length="1000" name="business_use_case" type="string"/>
+        <element hint="Restricts CRUD access to an associated extended attribute record if the user does not have equal access to the CORE record" label="Require CORE record access" max_length="255" name="require_core_record_access" type="boolean"/>
         <element label="Default ownership team" max_length="32" name="default_ownership_team" reference="sys_user_group" type="reference"/>
         <element display="true" label="Short description" mandatory="true" max_length="40" name="short_description" type="string"/>
         <element label="Default data owner" max_length="32" name="default_data_owner" reference="sys_user" type="reference"/>
+        <element default="true" label="Active" max_length="255" name="active" type="boolean"/>
         <index name="index">
             <element name="default_data_owner"/>
         </index>

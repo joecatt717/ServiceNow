@@ -11,15 +11,15 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>cmdb_ci</collection>
+        <collection>x_1579565_cmdb_a_1_standard_attribute_extension</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Sync Extended Attributes</name>
-        <order>100</order>
+        <name>Validate Unique  Extension Record</name>
+        <order>500</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -29,38 +29,45 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	// Ensure that a record exists for extended attributes for each category associated with this CI
-	var utils = new x_1579565_cmdb_a_1.AttributeExtensionSync();
-	utils.createExtendedAttributes(current);
+	// check if record is unique - abort if false
+	var coalesce_fields = ['table','record', 'attribute_extension_type', 'attribute_extension_rule'];
+
+	var urit = new x_1579565_cmdb_a_1.UniqueRecordIdentificationTool();
+	var is_unique_record = urit.validateUniqueRecord(current, coalesce_fields);
+
+	if (!is_unique_record) {
+		gs.addErrorMessage(urit.error_code);
+		current.setAbortAction(true);
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-07 20:59:16</sys_created_on>
+        <sys_created_on>2024-12-11 00:17:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0442c01a83969a107f8afbc6feaad39d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Sync Extended Attributes</sys_name>
+        <sys_id>595a081b835e16107f8afbc6feaad3c9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Validate Unique  Extension Record</sys_name>
         <sys_overrides/>
         <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
-        <sys_update_name>sys_script_0442c01a83969a107f8afbc6feaad39d</sys_update_name>
+        <sys_update_name>sys_script_595a081b835e16107f8afbc6feaad3c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-11 01:00:12</sys_updated_on>
+        <sys_updated_on>2024-12-11 02:24:07</sys_updated_on>
         <template/>
-        <when>after</when>
+        <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=0442c01a83969a107f8afbc6feaad39d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=595a081b835e16107f8afbc6feaad3c9"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>0442c01a83969a107f8afbc6feaad39d</id>
+        <id>595a081b835e16107f8afbc6feaad3c9</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-07 20:59:16</sys_created_on>
-        <sys_id>77e28cd683969a107f8afbc6feaad30a</sys_id>
+        <sys_created_on>2024-12-11 00:17:29</sys_created_on>
+        <sys_id>701dccdb835e16107f8afbc6feaad3a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-07 20:59:16</sys_updated_on>
+        <sys_updated_on>2024-12-11 00:17:29</sys_updated_on>
         <table>sys_script</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

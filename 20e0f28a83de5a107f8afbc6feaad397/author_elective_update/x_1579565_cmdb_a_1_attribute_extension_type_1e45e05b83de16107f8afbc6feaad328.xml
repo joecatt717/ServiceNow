@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1579565_cmdb_a_1_attribute_extension_type">
+    <x_1579565_cmdb_a_1_attribute_extension_type action="DELETE">
+        <active>true</active>
+        <business_use_case>Extended attribute for base tables to capture data specific to GRC practices</business_use_case>
+        <default_data_owner display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</default_data_owner>
+        <default_ownership_team display_value="App Engine Studio User Limited" name="App Engine Studio User Limited">553032e853165110b846ddeeff7b12aa</default_ownership_team>
+        <extended_attribute_table>x_1579565_cmdb_a_1_standard_attribute_extension</extended_attribute_table>
+        <require_core_record_access>true</require_core_record_access>
+        <short_description>GRC Attributes 2</short_description>
+        <sys_class_name>x_1579565_cmdb_a_1_attribute_extension_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 02:03:15</sys_created_on>
+        <sys_id>1e45e05b83de16107f8afbc6feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC Attributes 2</sys_name>
+        <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_update_name>x_1579565_cmdb_a_1_attribute_extension_type_1e45e05b83de16107f8afbc6feaad328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 02:03:15</sys_updated_on>
+    </x_1579565_cmdb_a_1_attribute_extension_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</application>
+        <file_path/>
+        <instance_id>b529dcfa1b8ebd1019254089bd4bcb67</instance_id>
+        <instance_name>dev194263</instance_name>
+        <name>x_1579565_cmdb_a_1_attribute_extension_type_1e45e05b83de16107f8afbc6feaad328</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1579565_cmdb_a_1_attribute_extension_type"><x_1579565_cmdb_a_1_attribute_extension_type action="INSERT_OR_UPDATE"><active>true</active><business_use_case>Extended attribute for base tables to capture data specific to GRC practices</business_use_case><default_data_owner display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</default_data_owner><default_ownership_team display_value="App Engine Studio User Limited" name="App Engine Studio User Limited">553032e853165110b846ddeeff7b12aa</default_ownership_team><extended_attribute_table>x_1579565_cmdb_a_1_standard_attribute_extension</extended_attribute_table><require_core_record_access>true</require_core_record_access><short_description>GRC Attributes 2</short_description><sys_class_name>x_1579565_cmdb_a_1_attribute_extension_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 02:03:15</sys_created_on><sys_id>1e45e05b83de16107f8afbc6feaad328</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GRC Attributes 2</sys_name><sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package><sys_policy/><sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope><sys_update_name>x_1579565_cmdb_a_1_attribute_extension_type_1e45e05b83de16107f8afbc6feaad328</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 02:03:15</sys_updated_on></x_1579565_cmdb_a_1_attribute_extension_type></record_update>]]></payload>
+        <payload_hash>987574500</payload_hash>
+        <record_name>GRC Attributes 2</record_name>
+        <reverted_from/>
+        <source>1c33f24e83de5a107f8afbc6feaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 02:03:15</sys_created_on>
+        <sys_id>5e45281f83de16107f8afbc6feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193b374c9360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 02:03:15</sys_updated_on>
+        <type>Attribute Extension Type</type>
+        <update_guid>5245281f96de1610825f427aa191c745</update_guid>
+        <update_guid_history>5245281f96de1610825f427aa191c745:987574500</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GRC Attributes 2">4cb768df83de16107f8afbc6feaad3d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 02:13:45</sys_created_on>
+        <sys_db_object display_value="" name="x_1579565_cmdb_a_1_attribute_extension_type">x_1579565_cmdb_a_1_attribute_extension_type</sys_db_object>
+        <sys_id>07c6ccca826e42c0be2ab56f09893371</sys_id>
+        <sys_metadata>1e45e05b83de16107f8afbc6feaad328</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC Attributes 2</sys_name>
+        <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_scope_delete display_value="">1b61620f20e6467dae32fa9be1f33819</sys_scope_delete>
+        <sys_update_name>x_1579565_cmdb_a_1_attribute_extension_type_1e45e05b83de16107f8afbc6feaad328</sys_update_name>
+        <sys_update_version display_value="x_1579565_cmdb_a_1_attribute_extension_type_1e45e05b83de16107f8afbc6feaad328">5e45281f83de16107f8afbc6feaad345</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 02:13:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
