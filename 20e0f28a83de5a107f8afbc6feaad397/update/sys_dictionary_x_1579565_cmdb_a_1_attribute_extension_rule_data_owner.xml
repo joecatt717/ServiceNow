@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="record" table="x_1579565_cmdb_a_1_standard_attribute_extension">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="data_owner" table="x_1579565_cmdb_a_1_attribute_extension_rule">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,34 +13,34 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Record</column_label>
+        <column_label>Data owner</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>table</dependent>
-        <dependent_on_field>table</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>record</element>
+        <element>data_owner</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">document_id</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <name>x_1579565_cmdb_a_1_standard_attribute_extension</name>
+        <name>x_1579565_cmdb_a_1_attribute_extension_rule</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-08 13:53:57</sys_created_on>
-        <sys_name>Record</sys_name>
+        <sys_created_on>2024-12-08 14:53:34</sys_created_on>
+        <sys_name>Data owner</sys_name>
         <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
-        <sys_update_name>sys_dictionary_x_1579565_cmdb_a_1_standard_attribute_extension_record</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1579565_cmdb_a_1_attribute_extension_rule_data_owner</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-08 16:22:10</sys_updated_on>
+        <sys_updated_on>2024-12-08 14:53:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
+        <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

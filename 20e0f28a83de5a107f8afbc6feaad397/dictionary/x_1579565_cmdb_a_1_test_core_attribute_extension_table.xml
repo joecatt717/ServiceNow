@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a321c0a2835252107f8afbc6feaad39e" extends="cmdb_ci" label="TEST - Core Attribute Extension Table" max_length="40" name="x_1579565_cmdb_a_1_test_core_attribute_extension_table" type="collection"/>
+</database>

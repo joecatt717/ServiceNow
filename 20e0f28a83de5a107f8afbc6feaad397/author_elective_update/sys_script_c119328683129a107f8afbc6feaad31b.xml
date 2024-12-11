@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1579565_cmdb_a_1_extended_attribute_type</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Validate Attribute Type</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Ensure that the Attribute Type record meets all standards before being insert or updated
+	var utils = new AttrExtensionUtils();
+	var is_valid = utils.validateAttributeType(current);
+
+	// if it returns invalid then cancel the update/insert
+	if (!is_valid) {
+		current.setAbortAction(true);
+		gs.addErrorMessage(utils.error_code);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 15:40:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c119328683129a107f8afbc6feaad31b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Validate Attribute Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_update_name>sys_script_c119328683129a107f8afbc6feaad31b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 20:18:42</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=c119328683129a107f8afbc6feaad31b"/>
+    <sys_es_latest_script action="DELETE">
+        <id>c119328683129a107f8afbc6feaad31b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 15:40:00</sys_created_on>
+        <sys_id>4bd97e4683129a107f8afbc6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 15:40:00</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</application>
+        <file_path/>
+        <instance_id>b529dcfa1b8ebd1019254089bd4bcb67</instance_id>
+        <instance_name>dev194263</instance_name>
+        <name>sys_script_c119328683129a107f8afbc6feaad31b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1579565_cmdb_a_1_extended_attribute_type&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Validate Attribute Type&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Ensure that the Attribute Type record meets all standards before being insert or updated
+	var utils = new AttrExtensionUtils();
+	var is_valid = utils.validateAttributeType(current);
+
+	// if it returns invalid then cancel the update/insert
+	if (!is_valid) {
+		current.setAbortAction(true);
+		gs.addErrorMessage(utils.error_code);
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-07 15:40:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c119328683129a107f8afbc6feaad31b&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Attribute Type&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1"&gt;20e0f28a83de5a107f8afbc6feaad397&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CMDB Attribute Extension"&gt;20e0f28a83de5a107f8afbc6feaad397&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c119328683129a107f8afbc6feaad31b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-07 20:18:42&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c119328683129a107f8afbc6feaad31b"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;c119328683129a107f8afbc6feaad31b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-07 15:40:00&lt;/sys_created_on&gt;&lt;sys_id&gt;4bd97e4683129a107f8afbc6feaad3b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-07 15:40:00&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>971947156</payload_hash>
+        <record_name>Validate Attribute Type</record_name>
+        <reverted_from/>
+        <source>1c33f24e83de5a107f8afbc6feaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 20:18:42</sys_created_on>
+        <sys_id>a9a93f8a83569a107f8afbc6feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193a2c643320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 20:18:42</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>29a9ff4a78569a10a68c0b150fb21756</update_guid>
+        <update_guid_history>29a9ff4a78569a10a68c0b150fb21756:971947156,7a17a3cebcd29a10765c5c719fc3eece:218980088,770e724a5e129a10731a8ab08ad4fe33:1449591848,dbd93a0695129a10f4440ceb4c2ccdc1:-1138175743</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-08 14:55:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1b38bb0e65584416a3bcaff52764cee4</sys_id>
+        <sys_metadata>c119328683129a107f8afbc6feaad31b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Attribute Type</sys_name>
+        <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_parent display_value="">4e34fa8e83de5a107f8afbc6feaad328</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_scope_delete display_value="">1b61620f20e6467dae32fa9be1f33819</sys_scope_delete>
+        <sys_update_name>sys_script_c119328683129a107f8afbc6feaad31b</sys_update_name>
+        <sys_update_version display_value="sys_script_c119328683129a107f8afbc6feaad31b">a9a93f8a83569a107f8afbc6feaad3b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-08 14:55:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

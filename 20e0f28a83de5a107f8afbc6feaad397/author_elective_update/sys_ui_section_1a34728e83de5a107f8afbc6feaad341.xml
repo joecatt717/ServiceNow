@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="1a34728e83de5a107f8afbc6feaad341" sys_domain="global" table="x_1579565_cmdb_a_1_extended_attribute_type" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 15:36:23</sys_created_on>
+            <sys_id>d609be4683129a107f8afbc6feaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 15:36:23</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 15:36:23</sys_created_on>
+            <sys_id>1a09be4683129a107f8afbc6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 15:36:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 15:36:23</sys_created_on>
+            <sys_id>1209be4683129a107f8afbc6feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 15:36:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 15:36:23</sys_created_on>
+            <sys_id>1a09be4683129a107f8afbc6feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 15:36:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 15:36:23</sys_created_on>
+            <sys_id>1209be4683129a107f8afbc6feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 15:36:23</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 15:36:23</sys_created_on>
+            <sys_id>1a09be4683129a107f8afbc6feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 15:36:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_owner</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 20:15:39</sys_created_on>
+            <sys_id>01f8b74a83569a107f8afbc6feaad348</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 20:15:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_ownership_team</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 20:15:39</sys_created_on>
+            <sys_id>c9f83f4a83569a107f8afbc6feaad319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 20:15:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reference_field_name</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 20:39:13</sys_created_on>
+            <sys_id>1e5e734283969a107f8afbc6feaad308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 20:39:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1579565_cmdb_a_1_extended_attribute_type</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-07 15:15:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a34728e83de5a107f8afbc6feaad341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1579565_cmdb_a_1_extended_attribute_type</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+            <sys_update_name>sys_ui_section_1a34728e83de5a107f8afbc6feaad341</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-07 15:15:22</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</application>
+        <file_path/>
+        <instance_id>b529dcfa1b8ebd1019254089bd4bcb67</instance_id>
+        <instance_name>dev194263</instance_name>
+        <name>sys_ui_section_1a34728e83de5a107f8afbc6feaad341</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="1a34728e83de5a107f8afbc6feaad341" sys_domain="global" table="x_1579565_cmdb_a_1_extended_attribute_type" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 15:36:23</sys_created_on><sys_id>d609be4683129a107f8afbc6feaad342</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 15:36:23</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 15:36:23</sys_created_on><sys_id>1a09be4683129a107f8afbc6feaad343</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 15:36:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 15:36:23</sys_created_on><sys_id>1209be4683129a107f8afbc6feaad344</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 15:36:23</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>table</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 15:36:23</sys_created_on><sys_id>1a09be4683129a107f8afbc6feaad344</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 15:36:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 15:36:23</sys_created_on><sys_id>1209be4683129a107f8afbc6feaad345</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 15:36:23</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 15:36:23</sys_created_on><sys_id>1a09be4683129a107f8afbc6feaad345</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 15:36:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>data_owner</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 20:15:39</sys_created_on><sys_id>01f8b74a83569a107f8afbc6feaad348</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 20:15:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>data_ownership_team</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 20:15:39</sys_created_on><sys_id>c9f83f4a83569a107f8afbc6feaad319</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 20:15:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reference_field_name</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 20:39:13</sys_created_on><sys_id>1e5e734283969a107f8afbc6feaad308</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1579565_cmdb_a_1_extended_attribute_type" sys_domain="global" view="Default view">1a34728e83de5a107f8afbc6feaad341</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 20:39:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1579565_cmdb_a_1_extended_attribute_type</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-07 15:15:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1a34728e83de5a107f8afbc6feaad341</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1579565_cmdb_a_1_extended_attribute_type</sys_name><sys_overrides/><sys_package display_value="CMDB Attribute Extension" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package><sys_policy/><sys_scope display_value="CMDB Attribute Extension">20e0f28a83de5a107f8afbc6feaad397</sys_scope><sys_update_name>sys_ui_section_1a34728e83de5a107f8afbc6feaad341</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-07 15:15:22</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>373997333</payload_hash>
+        <record_name>Extended Attribute Type</record_name>
+        <reverted_from/>
+        <source>1c33f24e83de5a107f8afbc6feaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 20:39:14</sys_created_on>
+        <sys_id>965e734283969a107f8afbc6feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193a2d90d710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 20:39:14</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>da5e7342fc969a105f83d7e9ae5e230a</update_guid>
+        <update_guid_history>da5e7342fc969a105f83d7e9ae5e230a:373997333,85f83f4ad6569a105c76ee830270b61b:1437615959,45f8b74a4a569a1001c98f8fded2324a:-590419380,1609be464b129a100c2015fae35acc47:1936763602,d634728e9ede5a10aea976f00c3c4244:1588488914</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-08 14:55:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>46ad91f1152247f0b257f19d99250100</sys_id>
+        <sys_metadata>1a34728e83de5a107f8afbc6feaad341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1579565_cmdb_a_1_extended_attribute_type</sys_name>
+        <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_parent display_value="">4e34fa8e83de5a107f8afbc6feaad328</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_scope_delete display_value="">1b61620f20e6467dae32fa9be1f33819</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1a34728e83de5a107f8afbc6feaad341</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1a34728e83de5a107f8afbc6feaad341">965e734283969a107f8afbc6feaad30b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-08 14:55:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

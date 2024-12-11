@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="data_ownership_group" label="Data ownership group" language="en" table="x_1579565_cmdb_a_1_attribute_extension_rule">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>data_ownership_group</element>
+            <help/>
+            <hint/>
+            <label>Data ownership group</label>
+            <language>en</language>
+            <name>x_1579565_cmdb_a_1_attribute_extension_rule</name>
+            <plural>Data ownership groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-08 14:53:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data ownership group</sys_name>
+            <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+            <sys_update_name>sys_documentation_x_1579565_cmdb_a_1_attribute_extension_rule_data_ownership_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-08 14:53:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

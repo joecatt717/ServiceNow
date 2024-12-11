@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1579565_cmdb_a_1.AttributeExtensionSync</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AttributeExtensionSync</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AttributeExtensionSync = Class.create();
+AttributeExtensionSync.prototype = {
+    initialize: function() {
+    },
+
+	createExtendedAttributes: function(current_gr) {
+		gs.info('test');
+		var attributeExtensionRules = this._getApplicableAttributeExtensionRules(current_gr);
+		
+		for (var i = 0; i < attributeExtensionRules.length; i++) {
+			var rule_id = attributeExtensionRules[i];
+			this.createAttributeExtensionRecord(current_gr, rule_id);
+		}
+	},
+
+	createAttributeExtensionRecord(current_gr, attribute_extension_rule_id) {
+		gs.info('new func');
+		var extension_rule = new GlideRecord('x_1579565_cmdb_a_1_attribute_extension_rule');
+		extension_rule.get(attribute_extension_rule_id);
+
+		var extended_table_name = extension_rule.attribute_extension_type.extended_attribute_table;
+
+		var extension_gr = new GlideRecord(extended_table_name);
+		extension_gr.initialize();
+		extension_gr.attribute_extension_rule = attribute_extension_rule_id;
+		extension_gr.table = current_gr.getValue('sys_class_name');
+		extension_gr.record = current_gr.getUniqueValue();
+		extension_gr.insert();
+	},
+
+	_getApplicableAttributeExtensionRules: function(current_gr) {
+		var rule_gr = new GlideRecord('x_1579565_cmdb_a_1_attribute_extension_rule');
+		rule_gr.addQuery('core_table_name', current_gr.getValue('sys_class_name'));
+		rule_gr.query();
+
+		var rule_ids = [];
+		while(rule_gr.next()) {
+			rule_ids.push(rule_gr.getUniqueValue());
+		}
+		return rule_ids;
+	},
+	
+    type: 'AttributeExtensionSync'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-08 15:49:08</sys_created_on>
+        <sys_id>5fd1c826835252107f8afbc6feaad3bf</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>AttributeExtensionSync</sys_name>
+        <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+        <sys_update_name>sys_script_include_5fd1c826835252107f8afbc6feaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-08 16:06:06</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>5fd1c826835252107f8afbc6feaad3bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-08 15:49:08</sys_created_on>
+        <sys_id>f6850026835252107f8afbc6feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-08 15:49:08</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

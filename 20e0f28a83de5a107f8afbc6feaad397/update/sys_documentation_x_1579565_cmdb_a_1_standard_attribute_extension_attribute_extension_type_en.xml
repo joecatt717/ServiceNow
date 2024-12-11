@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="attribute_extension_type" label="Attribute extension type" language="en" table="x_1579565_cmdb_a_1_standard_attribute_extension">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>attribute_extension_type</element>
+            <help/>
+            <hint/>
+            <label>Attribute extension type</label>
+            <language>en</language>
+            <name>x_1579565_cmdb_a_1_standard_attribute_extension</name>
+            <plural>Attribute extension types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-08 14:54:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Attribute extension type</sys_name>
+            <sys_package display_value="Attribute Extension Tool" source="x_1579565_cmdb_a_1">20e0f28a83de5a107f8afbc6feaad397</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attribute Extension Tool">20e0f28a83de5a107f8afbc6feaad397</sys_scope>
+            <sys_update_name>sys_documentation_x_1579565_cmdb_a_1_standard_attribute_extension_attribute_extension_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-08 14:54:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
